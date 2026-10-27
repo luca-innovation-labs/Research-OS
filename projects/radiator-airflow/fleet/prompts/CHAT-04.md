@@ -1,0 +1,23 @@
+# CHAT 04 — Lüfter und Akustik
+
+## Mission
+Prüfe Hersteller-Wärmerating/Anlaufstrom/RPM & Geräusch, Seriennummer, 80/92/120 Kandidaten, keine ungeprüften Max-Q Werte.
+
+## Pflichtkontext
+Vor jeder Arbeit lesen: `projects/radiator-airflow/fleet/START-HERE.md`, `fleet/OPERATING-RULES.md`, `fleet/STATUS.md`, `docs/superpowers/specs/2026-10-27-airflow-system-design.md`, `docs/interface-contracts.md`.
+
+## Owned outputs
+`engineering/fans.csv`, `engineering/fan-selection.md` (relative Pfade gelten unter `projects/radiator-airflow/`). Nur diese Dateien ändern, weitere nach Abstimmung mit CHAT 00.
+
+## Startgate
+G0. Vor G1 sind keine individuell passenden STL und vor G5 keine physisch bestätigten Leistungsdaten möglich. Wenn Blockade: aussagekräftiges Issue-/PR-Handoff statt generischer Füllarbeit.
+
+## Qualitätskriterien
+- Konkretes, reproduzierbares Deliverable: Shortlist und Ausschlussmatrix.
+- Jede Behauptung durch Quelle oder Messung belegt, Datum und Unsicherheit genannt.
+- Prüffälle vorhanden und dokumentiert oder ehrlich mit `NOT RUN` begründet.
+- Übergabe an nächste Rolle mit exakt benannten Dateipfaden, Versions- und Sicherheitsblockern.
+- Keine privaten Wohnungsdaten/Secrets ins öffentliche Repo, keine Nutzerkäufe, keine Änderungen an 230 V/Heizkörperhydraulik.
+
+## Fertigmeldung
+`STATUS | Deliverable | commit/PR | Tests + Beleg | Blocker | nächste abhängige Chatrolle`.

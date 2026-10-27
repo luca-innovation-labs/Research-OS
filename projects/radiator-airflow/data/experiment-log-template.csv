@@ -1,0 +1,1 @@
+trial_id,radiator_id,variant,pwm_percent,fan_rpm,room_C_start,room_C_end,flow_C,return_C,surface_C,ambient_C,outside_C,elapsed_minutes,measured_acoustic_dBA,baseline_acoustic_dBA,mains_power_W,notes,measurement_uncertainty,verdict
