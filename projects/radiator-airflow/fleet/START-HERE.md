@@ -1,5 +1,7 @@
 # AIRFLOW Fleet Quickstart (für 16 spätere Chats)
 
+0. **ZUERST:** Lies `projects/radiator-airflow/AGENTS.md`, `fleet/INNOVATION-ONLY.md` und `fleet/connector-scope.json`. Alle GitHub-Aktionen für AIRFLOW ausschließlich über die Verbindung **Innovation-labs** (Login `luca-innovation-labs`) zum Repository **`luca-innovation-labs/Research-OS`**. Evidor ist auch bei technisch verfügbarem OAuth/PAT-Zugriff gesperrt. Für lokale CLI-Writes gilt der Preflight `python3 projects/radiator-airflow/fleet/scripts/git_scope_guard.py`. Fehler = STOP.
+
 1. Lies `projects/radiator-airflow/README.md`, `docs/superpowers/specs/2026-10-27-airflow-system-design.md`, `docs/interface-contracts.md`, `docs/requirements-v1.md`.
 2. Lies `fleet/STATUS.md`. Starte nur deine explizit zugewiesene Rolle aus `fleet/prompts/CHAT-XX.md`.
 3. Ermittle den tatsächlichen Repo-Stand. Berücksichtige konkurrierende Commits und offene PRs; nie in den gleichen Owner-Dateien arbeiten wie andere Chats.

@@ -1,0 +1,28 @@
+name: AIRFLOW Innovation-only scope
+on:
+  push:
+    paths:
+      - 'projects/radiator-airflow/**'
+      - '.github/workflows/airflow-scope.yml'
+  pull_request:
+    paths:
+      - 'projects/radiator-airflow/**'
+      - '.github/workflows/airflow-scope.yml'
+permissions:
+  contents: read
+jobs:
+  repo-scope:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify GitHub repository owner
+        shell: bash
+        env:
+          REPO: ${{ github.repository }}
+        run: |
+          [[ "$REPO" == "luca-innovation-labs/Research-OS" ]] || {
+            echo "DENY: AIRFLOW only in Innovation/Research-OS" >&2
+            exit 1
+          }
+      - name: Verify account isolation tests
+        run: python3 -m unittest discover -s projects/radiator-airflow/fleet/tests -v
