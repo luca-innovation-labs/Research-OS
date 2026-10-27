@@ -7,7 +7,7 @@
 - D-004: Konzeptvergleich zwischen Direct-Clip und Shrouded-Rail; Floor-Pod als Fallback.
 - D-005: ESPHome nur optional, autarker temperaturabhängiger Betrieb ist Pflicht.
 - D-006: Erste Pilotinstallation mit Ausgangsmessung; keine Heizkostenversprechen.
-- D-007: GitHub Research-OS/Innovation ist nur temporärer *öffentlicher* Forschungsstand ohne persönliche Wohnungsinformationen; endgültiges privates eigenes Repo/Account noch festzulegen. Evidor ausdrücklich nicht als Ziel.
+- D-007: **Verbindlicher GitHub-Account ist `luca-innovation-labs` (Innovation); Evidor ist ausgeschlossen.** Kanonischer aktueller Pfad: `Research-OS/projects/radiator-airflow/`. Research-OS ist öffentlich: private Wohnungsinformationen, Standort, Fotos und Secrets dort nicht speichern. Eigenständiges privates Repo **innerhalb desselben Innovation-Accounts** ist ein optionaler späterer Organisationsschritt, kein Wechsel des Account-Eigentümers.
 
 ## Work packages
 G0 Research: Primärstudien, Prior-Art/Lizenz, technische Datenblätter, Risiken -> Quellenregister.
