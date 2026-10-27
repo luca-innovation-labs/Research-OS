@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "profiles": {
+    "round": {
+      "label": "Round Mirror",
+      "aspect": "circular overlay",
+      "designResolution": [
+        1080,
+        1080
+      ],
+      "features": [
+        "clock",
+        "date",
+        "weather-placeholder",
+        "room-demo"
+      ]
+    },
+    "cabinet": {
+      "label": "Mirror Cabinet",
+      "aspect": "landscape",
+      "designResolution": [
+        1920,
+        1080
+      ],
+      "features": [
+        "clock",
+        "date",
+        "weather-placeholder",
+        "room-demo",
+        "tasks-placeholder"
+      ]
+    },
+    "tower": {
+      "label": "PC Tower LCD",
+      "aspect": "portrait",
+      "designResolution": [
+        1080,
+        1920
+      ],
+      "features": [
+        "clock",
+        "cpu-demo",
+        "ram-placeholder",
+        "network-placeholder"
+      ]
+    },
+    "dex": {
+      "label": "Samsung DeX",
+      "aspect": "landscape",
+      "designResolution": [
+        1920,
+        1080
+      ],
+      "features": [
+        "clock",
+        "date",
+        "room-demo",
+        "battery-placeholder"
+      ]
+    }
+  }
+}

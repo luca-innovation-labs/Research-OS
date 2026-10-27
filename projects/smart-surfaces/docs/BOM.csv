@@ -1,0 +1,14 @@
+module,part,specification,qty,estimated_eur_low,estimated_eur_high,priority,verification
+round,semireflective_mirror,MirroView or equivalent cut to size,1,70,230,P0,quote needed
+round,display,7-10 inch HDMI or 5 inch round,1,45,140,P0,exact model needed
+round,compute,existing Pi 4/5 or Dex Galaxy,1,0,90,P0,reuse first
+round,mechanics,frame mounting low voltage cables,1,25,80,P1,safety review
+cabinet,glass_or_panel,suitable semireflective insert,1,100,260,P0,measure
+cabinet,display,10-15.6 inch HDMI,1,65,160,P0,measure
+cabinet,compute,existing Pi or Dex device,1,0,90,P0,reuse first
+cabinet,mechanics,mounts safe low voltage routing,1,40,130,P1,review hinges humidity
+pc,donor_monitor,used LCD with compatible controller,1,0,65,P0,identify panel
+pc,illumination,diffuse low voltage lighting,1,15,50,P1,test homogeneous backlighting
+pc,mounting,brackets and safe cable routing,1,10,45,P1,thermal review
+phone,dex_hub,USB C power delivery HDMI adapter,1,20,75,P0,check compatibility
+phone,power_supply,approved suitable USB PD charger,1,15,40,P0,avoid battery modification

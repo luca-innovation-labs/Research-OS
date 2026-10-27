@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.log
+*.sqlite3
+*.FCStd1
+*.stl
+*.3mf
+*.step
+secrets/
+private/

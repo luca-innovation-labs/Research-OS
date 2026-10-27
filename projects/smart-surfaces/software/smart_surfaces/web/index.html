@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#070a0f">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Smart Surfaces – lokale Display-Demonstration">
+  <title>Smart Surfaces · Display Preview</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="app" id="app" data-profile="round">
+    <header class="topbar" aria-label="Demo-Steuerung">
+      <div class="brand"><span class="brand-orb" aria-hidden="true"></span><span>SMART <strong>SURFACES</strong></span></div>
+      <nav class="profile-nav" aria-label="Display wählen">
+        <a href="/?profile=round" data-target="round">Rundspiegel</a>
+        <a href="/?profile=cabinet" data-target="cabinet">Schrank</a>
+        <a href="/?profile=tower" data-target="tower">PC-Tower</a>
+        <a href="/?profile=dex" data-target="dex">Galaxy DeX</a>
+      </nav>
+    </header>
+    <main class="viewport">
+      <div class="screen-frame">
+        <section class="screen" aria-label="Vorschau Smart Surface">
+          <div class="screen-head"><span class="kicker" id="displayLabel">ROUND MIRROR</span><span class="display-state"><span class="dot"></span> DEMO / OFFLINE</span></div>
+          <div class="time-block"><time id="clock" aria-label="Aktuelle lokale Uhrzeit">--:--</time><p id="date">--</p></div>
+          <div class="micro-grid">
+            <article class="measure"><span class="symbol" aria-hidden="true">◦</span><div><p class="measure-label">Raumtemperatur <small>DEMO</small></p><strong id="temperature">--</strong></div></article>
+            <article class="measure"><span class="symbol" aria-hidden="true">◌</span><div><p class="measure-label">Luftfeuchte <small>DEMO</small></p><strong id="humidity">--</strong></div></article>
+            <article class="measure tower-only"><span class="symbol" aria-hidden="true">△</span><div><p class="measure-label">CPU-Temperatur <small>DEMO</small></p><strong id="cpuTemp">--</strong></div></article>
+            <article class="measure tower-only"><span class="symbol" aria-hidden="true">↗</span><div><p class="measure-label">CPU-Last <small>DEMO</small></p><strong id="cpuLoad">--</strong></div></article>
+          </div>
+          <p class="footnote" id="status" role="status" aria-live="polite">Lade synthetische Testdaten …</p>
+        </section>
+      </div>
+    </main>
+    <footer class="bottom"><span>LOCAL FIRST <span aria-hidden="true">·</span> NO TRACKING</span><span>Prototype v0.1 · 27.10.2026</span></footer>
+  </div>
+</body>
+</html>
