@@ -6,7 +6,7 @@ Stand: 2026-10-27 · Phase: Recherche/Konzept · **Noch kein Prototyp, keine Bes
 Modulare, leise, kostensensible, wartbare und an reale Heizkörper anpassbare 12-V-Lüftermodule zur Verbesserung der erzwungenen Konvektion. Geplant sind parametrische 3D-Druckteile, optional autarke Thermostatsteuerung oder ESP32/ESPHome, klare Sicherheitsschranken und quantitative A/B-Tests.
 
 ## Wichtig: Eigentümer/Repo-Routing
-Nicht im Evidor-Unternehmenskontext pflegen! Dieser research-only Ordner wurde interimistisch in Innovation / Research-OS erstellt; endgültig eigene Heimat im gewünschten verbundenen Home-/Projektkonto oder eigenständiges privates Repo anlegen. **Keinerlei private Adressen, Fotos, Maße mit Wohnungsbezug, API-Secrets oder WLAN-Daten in dieses öffentliche Repository übernehmen.** Später kontrollierte Migration mit Git-Historie oder identischem Dokumentstand.
+**Projektinhaber und kanonischer Arbeitsort: GitHub `luca-innovation-labs` (Innovation), derzeit im Repository `Research-OS` unter `projects/radiator-airflow/`.** Evidor ist explizit kein Projektziel. Ein eigenständiges Repository unter demselben Innovation-Account kann bei Bedarf später angelegt werden. **Das derzeitige Research-OS-Repository ist öffentlich: keine privaten Adressen, Wohnungsfotos, personenbezogenen Aufmaßdaten, API-Secrets oder WLAN-Zugangsdaten einchecken.**
 
 ## Sofortige Links
 - [Wissenschaft und externe Referenzen](research/2026-10-27-sources.md)
