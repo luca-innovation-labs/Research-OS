@@ -1,0 +1,4 @@
+item_id,subsystem,manufacturer,model_sku,quantity,unit_price_eur,ambient_temp_rating_C,max_current_A,power_W,dimensions_mm,source_url,verification_status,decision
+FAN-01,fan,,,,,,,,,,not_selected,TBD
+PSU-01,power,,,,,,,,,,not_selected,TBD
+CTRL-01,controller,,,,,,,,,,not_selected,TBD
