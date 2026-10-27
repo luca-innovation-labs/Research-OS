@@ -1,0 +1,2 @@
+radiator_id,type,width_mm,height_mm,depth_mm,floor_clearance_mm,wall_gap_mm,bottom_opening_mm,top_opening_mm,fin_channel_span_mm,pipe_obstacle_note,free_mount_width_mm,hot_surface_max_C,ambient_air_max_C,outlet_wall_plug_distance_m,photo_private_reference,measurement_status
+RAD-01,,,,,,,,,,,,,,,,not_measured
