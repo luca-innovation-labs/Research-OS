@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "project": "airflow",
+  "allowed_github_account": "luca-innovation-labs",
+  "github_connector": "Innovation-labs",
+  "allowed_write_repositories": [
+    "luca-innovation-labs/Research-OS"
+  ],
+  "blocked_account": "evidorworkspace-arch",
+  "fail_closed": true,
+  "source_repositories_readonly_public": true
+}
